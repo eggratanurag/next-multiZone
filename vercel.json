@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/blog/:path*",
-      "destination": "https://next-blog-tau-pied.vercel.app/blog/:path*"
+      "destination": "https://next-blog-tau-pied.vercel.app/:path*"
     },
     {
       "source": "/shop/:path*",
-      "destination": "https://next-shop-six-drab.vercel.app/shop/:path*"
+      "destination": "https://next-shop-six-drab.vercel.app/:path*"
     }
   ]
 }
