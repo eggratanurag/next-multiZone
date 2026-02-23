@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/blog/(.*)", "destination": "http://localhost:3001/$1" },
+    { "source": "/shop/(.*)", "destination": "https://shop.example.com/$1" }
+  ]
+}
