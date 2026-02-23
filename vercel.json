@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/blog/(.*)", "destination": "next-blog-dshwsqq2f-eggratanurags-projects.vercel.app/$1" },
-    { "source": "/shop/(.*)", "destination": "next-shop-dvwulw4j5-eggratanurags-projects.vercel.app" }
+    { "source": "/blog/(.*)", "destination": "https://next-blog-tau-pied.vercel.app/$1" },
+    { "source": "/shop/(.*)", "destination": "https://next-shop-six-drab.vercel.app/" }
   ]
 }
