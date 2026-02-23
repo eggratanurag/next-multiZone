@@ -1,6 +1,20 @@
 {
   "rewrites": [
-    { "source": "/blog/(.*)", "destination": "https://next-blog-tau-pied.vercel.app/$1" },
-    { "source": "/shop/(.*)", "destination": "https://next-shop-six-drab.vercel.app/" }
+    {
+      "source": "/blog",
+      "destination": "https://next-blog-tau-pied.vercel.app"
+    },
+    {
+      "source": "/blog/(.*)",
+      "destination": "https://next-blog-tau-pied.vercel.app/$1"
+    },
+    {
+      "source": "/shop",
+      "destination": "https://next-shop-six-drab.vercel.app"
+    },
+    {
+      "source": "/shop/(.*)",
+      "destination": "https://next-shop-six-drab.vercel.app/$1"
+    }
   ]
 }
